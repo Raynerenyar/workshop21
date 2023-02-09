@@ -11,7 +11,7 @@
     MYSQLPORT=
     MYSQL_URL=jdbc:mysql://localhost/<schema name>
     ```
-- ### - For deploying to Railway MySQL and using root user
+- ### For deploying to Railway MySQL and using root user
     `MYSQLUSER=root` if using root user.
 
     Spring runs `MySqlConfig.java` and pulls railway's environment variables to connect to railway's MySQL.
